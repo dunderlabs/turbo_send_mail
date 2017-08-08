@@ -26,3 +26,6 @@ install-dev-requirements:
 
 setup-frontend:
 	bower install --allow-root
+
+test:
+	python manage.py test backend
